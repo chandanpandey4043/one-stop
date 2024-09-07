@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 16px;
+}
+
+.arrow {
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.search-container button {
+    background-color: white;
+    border: none;
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+.search-container button img {
+    width: 16px;
+    height: 16px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.auth-buttons a {
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+.sign-in {
+    color: #af0f0f;
+}
+
+.register {
+    background-color: #73071b;
+    color: white;
+    border-radius: 3px;
+}
+.footer {
+    background-color: #f3f4f6;
+    padding: 3rem 1rem;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+}
+.footer-category {
+    display: flex;
+    flex-direction: column;
+}
+.footer-category h2 {
+    color: #ec4899;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+.footer-category p {
+    color: #4b5563;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+.footer-category h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.footer-category ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-category li {
+    margin-bottom: 0.5rem;
+}
+.footer-category a {
+    color: #374151;
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+.footer-category a:hover {
+    color: #ec4899;
+}
+@media (max-width: 1024px) {
+    .footer-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 640px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+}
