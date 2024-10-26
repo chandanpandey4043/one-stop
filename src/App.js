@@ -17,10 +17,10 @@ function App() {
           <span className="accent">One Stop Solution</span><br />
           <span className="main">for your skills</span>
         </h1>
-        <div className="rating">4.00 average rating</div>
+        {/* <div className="rating">4.00 average rating</div>
         <div className="stars">★★★★☆</div>
         <div className="reviews">186,235 learner reviews</div>
-        <div className="powered-by">Powered by yotpo.</div>
+        <div className="powered-by">Powered by yotpo.</div> */}
         <p className="description">
           Take your career further. Discover 1400+ courses from top universities and master in-demand skills across marketing, tech, business, cybersecurity and more.
         </p>
