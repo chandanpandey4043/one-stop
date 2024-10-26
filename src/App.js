@@ -22,7 +22,7 @@ function App() {
         <div className="reviews">186,235 learner reviews</div>
         <div className="powered-by">Powered by yotpo.</div> */}
         <p className="description">
-          Take your career further. Discover 1400+ courses from top universities and master in-demand skills across marketing, tech, business, cybersecurity and more.
+        Prepare yourself for placements and the software industry! Master essential tech stacks, build in-demand skills across development, data science, cybersecurity, and more. Plus, get AI-assisted interview prep to help you stand out and land your dream role.
         </p>
         <div className="cta-container">
           <a href="#" className="cta cta-primary">Get Unlimited learning</a>
